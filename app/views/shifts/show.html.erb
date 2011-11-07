@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Time:</b>
+  <%= @shift.time %>
+</p>
+
+<p>
+  <b>Hours:</b>
+  <%= @shift.hours %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @shift.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_shift_path(@shift) %> |
+<%= link_to 'Back', shifts_path %>

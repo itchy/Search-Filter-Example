@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 
+  shift_id: 
+  hours_worked: 
+
+two:
+  user_id: 
+  shift_id: 
+  hours_worked: 
