@@ -21,10 +21,7 @@ class Filter
   class << self
     def search_shifts(params={})
       shifts = Shift
-      if params.blank?
-        shifts.all
-      end  
-      # add on the conditions
+      # add on the search conditions
       params.each_pair do |field, value|
         shifts = shifts.where("LOWER(#{field}) like ?", "%#{value.downcase}%") 
       end  
